@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#add-expense {
+  margin-bottom: 20px;
+}
+
+#add-expense input[type="text"],
+#add-expense input[type="number"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+#add-expense input[type="text"]:focus,
+#add-expense input[type="number"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+#add-expense button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-expense button:hover {
+  background-color: #45a049;
+}
+
+#expenses-list {
+  text-align: center;
+}
+
+#expenses-list h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#expenses {
+  list-style-type: none;
+  padding: 0;
+}
+
+#expenses li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+#expenses li:hover {
+  background-color: #f9f9f9;
+}
+
+#expenses li button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#expenses li button:hover {
+  background-color: #d32f2f;
+}
